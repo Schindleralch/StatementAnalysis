@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#ignore statements in this directory
+eStmt*.txt
+eStmt*.pdf
