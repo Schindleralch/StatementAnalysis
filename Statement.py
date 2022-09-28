@@ -10,7 +10,7 @@ import pyodbc
 class Statement:  
     # statementhist = r'C:\Users\chris\OneDrive\Desktop\Statement History\statementhist.txt'
     global dir
-    directory = os.listdir(r'c:\Users\chris\OneDrive\Desktop\Pythoncodes\Bank Account Project')  
+    directory = os.listdir(r'C:\Users\chris\source\repos\StatementAnalysis')  
     def __init__(self, account_num, statement_date, statement_id, filename):  #Statement_id is the statement date + accountnumber. 
         self.account_num = account_num
         self.statement_date = statement_date
